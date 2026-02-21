@@ -2,6 +2,8 @@
 
 `@admincraft/hooks`는 사용자 페이지에서 사용할 수 있는 유틸리티 React 훅을 제공합니다.
 
+> **소스 코드**: [`packages/ui/src/import-map.ts`](https://github.com/mkroo/admincraft/blob/main/packages/ui/src/import-map.ts) · 사용 예시: [`packages/ui/src/templates/`](https://github.com/mkroo/admincraft/tree/main/packages/ui/src/templates)
+
 ## useApi
 
 API 호출을 위한 훅입니다. 내부적으로 postMessage 브릿지를 통해 부모 프레임에 요청을 전달합니다.

@@ -2,6 +2,8 @@
 
 AdminCraft 내부 데이터 저장을 추상화하는 인터페이스입니다.
 
+> **소스 코드**: [`packages/core/src/storage/types.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/types.ts) · 기본 구현: [`sqlite.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/sqlite.ts)
+
 ## 인터페이스
 
 ```typescript

@@ -2,6 +2,8 @@
 
 AI 페이지 생성 기능을 추상화하는 인터페이스입니다.
 
+> **소스 코드**: [`packages/core/src/types/`](https://github.com/mkroo/admincraft/tree/main/packages/core/src/types) · 설정 UI: [`apps/web/app/admin/settings/_components/ai-settings-form.tsx`](https://github.com/mkroo/admincraft/blob/main/apps/web/app/admin/settings/_components/ai-settings-form.tsx)
+
 ## 인터페이스
 
 ```typescript
