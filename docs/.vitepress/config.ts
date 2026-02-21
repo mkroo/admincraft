@@ -7,6 +7,7 @@ export default withMermaid(
     description: 'AI 시대의 셀프서비스 어드민 프레임워크',
     lang: 'ko-KR',
     base: '/admincraft/',
+    ignoreDeadLinks: true,
 
     themeConfig: {
       logo: '/logo.svg',
