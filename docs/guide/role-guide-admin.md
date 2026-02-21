@@ -15,25 +15,25 @@ Docker 또는 수동 빌드로 서버를 띄웁니다.
 
 ### 2. OIDC 인증 설정
 
-사용자 로그인과 역할 매핑을 위해 OIDC provider를 연동합니다.
+사용자가 로그인하고 역할을 부여받으려면 OIDC provider 연동이 필요합니다.
 
 → [인증 (OIDC) 설정](/configuration/oauth)
 
 ### 3. AI Provider 설정
 
-서버 시작 후 **관리 > 시스템 설정**에서 AI provider와 API 키를 설정합니다.
+Editor가 AI로 페이지를 생성하려면 AI provider와 API 키가 설정되어 있어야 합니다. 서버 시작 후 **관리 > 시스템 설정**에서 설정합니다.
 
 → [AI Provider 설정](/configuration/ai-provider)
 
 ### 4. OAS3 API 스펙 등록
 
-Editor가 페이지를 만들 때 사용할 API 스펙(JSON/YAML)을 등록합니다.
+AI가 어떤 API를 호출할 수 있는지 알아야 페이지를 생성할 수 있습니다. Editor가 페이지를 만들 때 사용할 API 스펙(JSON/YAML)을 등록합니다.
 
 → [시작하기 — 초기 설정](/guide/getting-started#_4-초기-설정)
 
 ### 5. 디자인 시스템 선택 (선택사항)
 
-기본 shadcn/ui 대신 사내 디자인 시스템을 사용하려면 커스텀 프리셋을 등록합니다.
+기본 shadcn/ui가 아닌 사내 디자인 시스템을 사용하려면 커스텀 프리셋을 등록합니다.
 
 → [디자인 시스템 설정](/configuration/design-system)
 
@@ -56,6 +56,10 @@ AI provider, API 환경 등 시스템 설정을 **서버 재시작 없이** 변�
 Admin은 Editor 역할을 포함합니다. AI로 페이지를 만들고, 코드를 직접 작성하고, 갤러리에 공유할 수 있습니다.
 
 → [Editor 가이드](/guide/role-guide-editor)에서 Editor 기능 상세 확인
+
+::: info Admin이 할 수 없는 것
+Admin은 모든 권한을 가지지만, 다른 사용자의 비밀번호를 변경하거나 OIDC provider를 우회할 수는 없습니다. 사용자 인증은 전적으로 OIDC provider가 담당합니다.
+:::
 
 ## 장점
 

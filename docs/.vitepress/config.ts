@@ -33,16 +33,16 @@ export default withMermaid(
             items: [
               { text: 'AdminCraft란?', link: '/guide/what-is-admincraft' },
               { text: '시작하기', link: '/guide/getting-started' },
-              { text: '역할과 권한', link: '/guide/roles-and-permissions' },
+              { text: '역할별 가이드', link: '/guide/role-guides' },
             ],
           },
           {
             text: '역할별 가이드',
             items: [
-              { text: '역할별 가이드', link: '/guide/role-guides' },
               { text: 'Admin 가이드', link: '/guide/role-guide-admin' },
               { text: 'Editor 가이드', link: '/guide/role-guide-editor' },
               { text: 'Viewer 가이드', link: '/guide/role-guide-viewer' },
+              { text: '역할과 권한', link: '/guide/roles-and-permissions' },
             ],
           },
           {

@@ -2,6 +2,12 @@
 
 AdminCraft를 설치하고 첫 페이지를 만들어보는 과정을 안내합니다.
 
+::: tip 내 역할에 맞는 시작점
+- **처음 설치하는 Admin이라면** → 이 문서를 순서대로 따라하세요
+- **Admin이 세팅한 환경에서 시작하는 Editor라면** → [Editor 가이드](/guide/role-guide-editor)
+- **만들어진 페이지를 사용하는 Viewer라면** → [Viewer 가이드](/guide/role-guide-viewer)
+:::
+
 ## 설치 방법 선택
 
 | 방법 | 대상 | 설명 |

@@ -26,32 +26,6 @@ flowchart LR
 - **Admin**이 시스템을 세팅하면, **Editor**가 페이지를 만들고, **Viewer**가 사용합니다.
 - Admin은 Editor의 모든 기능을 포함합니다.
 
-## 역할별 요약
-
-### Admin — 한 번 설정하면 팀 전체가 자급자족
-
-- AdminCraft 설치 (Docker / 수동)
-- OIDC 인증, AI Provider, OAS3 스펙 설정
-- 전체 페이지 거버넌스 (모든 사용자 페이지 조회·편집·삭제)
-
-→ [Admin 가이드 바로가기](/guide/role-guide-admin)
-
-### Editor — 개발 요청 없이 직접 만든다
-
-- AI 프롬프트 또는 TSX 코드로 페이지 생성
-- 실시간 미리보기 & 대화형 수정
-- 갤러리 공유 & 구독자 관리
-
-→ [Editor 가이드 바로가기](/guide/role-guide-editor)
-
-### Viewer — IT 티켓 없이 바로 사용
-
-- 갤러리에서 페이지 검색 & 구독
-- 나만의 사이드바 메뉴 구성
-- 페이지 내 데이터 조회·수정 (API 호출)
-
-→ [Viewer 가이드 바로가기](/guide/role-guide-viewer)
-
 ## 권한 상세
 
 각 역할이 할 수 있는 작업의 전체 매트릭스는 [역할과 권한](/guide/roles-and-permissions) 문서를 참고하세요.
