@@ -37,6 +37,15 @@ export default withMermaid(
             ],
           },
           {
+            text: '역할별 가이드',
+            items: [
+              { text: '역할별 가이드', link: '/guide/role-guides' },
+              { text: 'Admin 가이드', link: '/guide/role-guide-admin' },
+              { text: 'Editor 가이드', link: '/guide/role-guide-editor' },
+              { text: 'Viewer 가이드', link: '/guide/role-guide-viewer' },
+            ],
+          },
+          {
             text: '설치',
             items: [
               { text: 'Docker 설치', link: '/guide/self-hosting-docker' },

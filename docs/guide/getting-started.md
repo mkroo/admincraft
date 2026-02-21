@@ -65,6 +65,7 @@ docker compose up -d
 
 ## 다음 단계
 
+- [역할별 가이드](/guide/role-guides) - 내 역할(Admin/Editor/Viewer)에 맞는 시작점 찾기
 - [AI로 페이지 만들기](/guide/creating-pages-ai) - AI 페이지 생성의 자세한 사용법
 - [코드로 페이지 만들기](/guide/creating-pages-code) - TSX를 직접 작성하여 페이지 생성
 - [인증 설정 (OIDC)](/configuration/oauth) - Keycloak, 커스텀 OIDC, rolePolicy 설정
