@@ -2,7 +2,10 @@
 
 `@admincraft/hooks`는 사용자 페이지에서 사용할 수 있는 유틸리티 React 훅을 제공합니다.
 
-> **소스 코드**: [`packages/ui/src/import-map.ts`](https://github.com/mkroo/admincraft/blob/main/packages/ui/src/import-map.ts) · 사용 예시: [`packages/ui/src/templates/`](https://github.com/mkroo/admincraft/tree/main/packages/ui/src/templates)
+| 구현체 | 설명 | 소스 코드 |
+|--------|------|-----------|
+| Import Map | `@admincraft/hooks` 모듈 매핑 | [`packages/ui/src/import-map.ts`](https://github.com/mkroo/admincraft/blob/main/packages/ui/src/import-map.ts) |
+| 페이지 템플릿 | 훅 사용 예시 (list, detail, form, dashboard) | [`packages/ui/src/templates/`](https://github.com/mkroo/admincraft/tree/main/packages/ui/src/templates) |
 
 ## useApi
 

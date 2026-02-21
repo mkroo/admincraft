@@ -2,7 +2,10 @@
 
 OIDC(OpenID Connect) 기반 인증을 추상화하는 어댑터 인터페이스입니다. OIDC Discovery로 엔드포인트를 자동 구성합니다.
 
-> **소스 코드**: [`packages/core/src/auth/permissions.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/auth/permissions.ts) · NextAuth 설정: [`apps/web/auth.ts`](https://github.com/mkroo/admincraft/blob/main/apps/web/auth.ts)
+| 구현체 | 설명 | 소스 코드 |
+|--------|------|-----------|
+| 역할 & 권한 | `AdminCraftRole`, `resolveRole`, 권한 매트릭스 | [`packages/core/src/auth/permissions.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/auth/permissions.ts) |
+| NextAuth 설정 | Keycloak OIDC 연동, JWT 콜백 | [`apps/web/auth.ts`](https://github.com/mkroo/admincraft/blob/main/apps/web/auth.ts) |
 
 ## 인터페이스
 

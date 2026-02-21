@@ -2,7 +2,11 @@
 
 AI 페이지 생성 기능을 추상화하는 인터페이스입니다.
 
-> **소스 코드**: [`packages/core/src/types/`](https://github.com/mkroo/admincraft/tree/main/packages/core/src/types) · 설정 UI: [`apps/web/app/admin/settings/_components/ai-settings-form.tsx`](https://github.com/mkroo/admincraft/blob/main/apps/web/app/admin/settings/_components/ai-settings-form.tsx)
+| 구현체 | 설명 | 소스 코드 |
+|--------|------|-----------|
+| AI 타입 정의 | `AIProvider`, `AISettings` 등 타입 | [`packages/core/src/types/`](https://github.com/mkroo/admincraft/tree/main/packages/core/src/types) |
+| AI 설정 UI | Provider 선택, API 키 입력 폼 | [`apps/web/app/admin/settings/_components/ai-settings-form.tsx`](https://github.com/mkroo/admincraft/blob/main/apps/web/app/admin/settings/_components/ai-settings-form.tsx) |
+| 연결 테스트 API | Provider 연결 검증 엔드포인트 | [`apps/web/app/api/admin/test-connection/route.ts`](https://github.com/mkroo/admincraft/blob/main/apps/web/app/api/admin/test-connection/route.ts) |
 
 ## 인터페이스
 

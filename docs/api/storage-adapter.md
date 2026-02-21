@@ -2,7 +2,10 @@
 
 AdminCraft 내부 데이터 저장을 추상화하는 인터페이스입니다.
 
-> **소스 코드**: [`packages/core/src/storage/types.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/types.ts) · 기본 구현: [`sqlite.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/sqlite.ts)
+| 구현체 | 설명 | 소스 코드 |
+|--------|------|-----------|
+| `StorageAdapter` 인터페이스 | 저장소 추상화 타입 정의 | [`packages/core/src/storage/types.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/types.ts) |
+| SQLite 어댑터 | 기본 제공 SQLite 구현체 | [`packages/core/src/storage/sqlite.ts`](https://github.com/mkroo/admincraft/blob/main/packages/core/src/storage/sqlite.ts) |
 
 ## 인터페이스
 
